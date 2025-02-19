@@ -19,13 +19,15 @@ body{
  padding: 0;
  font-family: var(--font);
 }
+
 .header img{
-  width:20rem;
+  width:23rem;
 }
 .container-body{ 
   color: var(--Dark-Slate-Grey);
   font-weight:var(--Weights-400) ;
   padding: 0 2rem;
+ 
 }
 .conatiner-text {
   font-size: var(--size-basic);
@@ -41,32 +43,59 @@ body{
   flex: 1;
   gap: 0.5rem; 
 }
+.container-text-topics{
+  width: 19rem;
+}
+.conatiner-address{
+  display: flex;
+  flex-direction: column;
+  width: 19rem;
+ 
+}
+.conatiner-address label{
+  padding: 1rem 0;
+  font-size: small;
+  font-weight: 600;
+}
+input{
+   padding: 1rem;
+   margin: 0 0 2rem;
+  border-radius: 7px light gray ; 
+}
+button{
+   padding: 1rem;
+   margin: 0 0 2rem;
+   background-color: var(--Dark-Slate-Grey);
+   color: white;
+   font-weight: 900;
+   border-radius: 7px ;
+}
 
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
 
+/*thanks*/
 
-
-  
-
-
-
-
-.conatiner-address{}
-.button{}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.container-thanks{
+  margin-top: 10rem;
+  text-align: left;
+  padding: 0 1rem 0 2rem;
+color: var(--Dark-Slate-Grey);
+}
+.container-text-hearder-tanks { 
+ padding-right: 2rem;
+ width: 15rem;
+}
+.container-text-topics-thanks p{
+  line-height: 1.5rem;
+}
+.btn-thanks{
+  width: 100%;
+  margin-top: 17rem;
+}
 .attribution {
       font-size: 11px;
       text-align: center;
